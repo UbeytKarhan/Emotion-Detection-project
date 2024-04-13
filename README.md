@@ -2,7 +2,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/jhan15/facial_emotion_recognition?color=ff69b4)
 
 # facial_emotion_recognition
-Recognize facial emotions in 7 categories: angry, disgust, fear, happy, sad, surprise, neutral.
+Recognize facial emotions in 7 categories: angry, disgust, fear, happy, sad, surprise, neutral. Open the facial_emotion_recognition folder within the emotion_detection folder using Visual Studio Code. Here, to run the emotion analysis project with the camera, first open the emotion_detection_from_video.py file, then run the project or execute it via the terminal using the command 'python emotion_detection_from_video.py'. When the project runs, real-time emotion analysis is performed with the camera through the pop-up window that appears. To close the application, simply touch the analysis screen once and press the 'Q' key. This application also applies for image files. To do so, use the command 'python emotion_detection_from_image.py'. Before running the application, specify the file path where the image is located at the bottom of the code section. To use the web application, open the main2.py file. In the terminal, type 'streamlit run main2.py' and it redirects to the web address. The web address presents two options. When the Image option is selected, you will be prompted to select any image file from your computer. The selected image is analyzed within seconds and displayed on the screen. When the Video option is selected, real-time emotion analysis is performed for the person or people in front of the camera. To exit, simply press the 'Q' key.
 
 ## Dataset
 The dataset is provided by a competition, which is quite similar to FER2013 dataset.
